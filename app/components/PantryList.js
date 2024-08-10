@@ -124,9 +124,9 @@ const PantryList = () => {
           <th>Brand</th>
           <th>Type of Item</th>
           <th>Location (Row, Column)</th>
-          <th>Quantity</th>
+          <th>Quantity (kg)</th>
           <th>Update Quantity</th>
-          <th>Cost per unit</th>
+          <th>Cost per unit (Rs.)</th>
           <th>Update Cost</th>
           <th>Remove</th>
         </tr>

@@ -178,10 +178,10 @@ const AddPantryItem = () => {
     <form onSubmit={handleSubmit} className="add-item-form">
       <input name="name" value={item.name} onChange={handleChange} placeholder="Name" required />
       <input name="type" value={item.type} onChange={handleChange} placeholder="Type" />
-      <input name="quantity" type="number" value={item.quantity} onChange={handleChange} placeholder="Quantity" required />
-      <input name="cost" type="number" value={item.cost} onChange={handleChange} placeholder="Cost per unit" required />
+      <input name="quantity" type="number" value={item.quantity} onChange={handleChange} placeholder="Quantity (kg)" required />
+      <input name="cost" type="number" value={item.cost} onChange={handleChange} placeholder="Cost per unit (Rs.)" required />
       <input name="brand" value={item.brand} onChange={handleChange} placeholder="Brand"  />
-      <input name="location" value={item.location} onChange={handleChange} placeholder="Location" required />
+      <input name="location" value={item.location} onChange={handleChange} placeholder="Location (Row, Column)" required />
       <button type="submit">Add Item</button>
     </form>
   );
